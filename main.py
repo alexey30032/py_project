@@ -1,3 +1,4 @@
 from funcs import get_summ
+from funcs import get_delta
 
-print(get_summ())
+get_delta()
