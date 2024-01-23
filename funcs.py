@@ -3,6 +3,13 @@ def get_summ():
   a = int(input())
   b = int(input())
   summ = a + b
-  return summ
+    #return summ
 
-print(get_summ())
+def get_delta():
+  print('Введите два целых положительных числа')
+  a = int(input())
+  b = int(input())
+  delta = a - b
+  return delta
+
+print(get_delta())
